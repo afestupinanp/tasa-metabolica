@@ -6,8 +6,9 @@
 
 using System;
 using System.Windows.Forms;
+using TMB.src;
 
-namespace WindowsFormsApplication1
+namespace TMB
 {
   internal static class Program
   {
@@ -16,7 +17,7 @@ namespace WindowsFormsApplication1
     {
       Application.EnableVisualStyles();
       Application.SetCompatibleTextRenderingDefault(false);
-      Application.Run((Form) new btnupdate());
+      Application.Run((Form) new MainForm());
     }
   }
 }
